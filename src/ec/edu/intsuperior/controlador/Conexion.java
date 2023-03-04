@@ -17,8 +17,8 @@ public class Conexion {
     
     public static Connection conexion(){
         String user="root";
-        String passwd="root";
-        String url="jdbc:mysql://localhost:3306/bimal?serverTimezone=UTC";
+        String passwd="roor";
+        String url="jdbc:mysql://localhost:3306/dbgestiondebodegas?serverTimezone=UTC";
         try {
             conex=DriverManager.getConnection(url,user,passwd);
             System.out.println("Conexion Exitosa");
