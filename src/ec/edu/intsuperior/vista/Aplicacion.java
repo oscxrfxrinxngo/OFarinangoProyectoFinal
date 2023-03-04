@@ -9,7 +9,7 @@ import ec.edu.intsuperior.controlador.Conexion;
 
 /**
  *
- * @author Jhon
+ * @author oscar farinango
  */
 public class Aplicacion {
     public static void main(String[] args) {

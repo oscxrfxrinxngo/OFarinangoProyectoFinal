@@ -10,7 +10,7 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author Jhon
+ * @author oscar fariango
  */
 public class Conexion {
    static Connection conex=null;
@@ -18,7 +18,7 @@ public class Conexion {
     public static Connection conexion(){
         String user="root";
         String passwd="roor";
-        String url="jdbc:mysql://localhost:3306/dbgestiondebodegas?serverTimezone=UTC";
+        String url="jdbc:mysql://localhost:3306/dbmedidoresaguacariacu?serverTimezone=UTC";
         try {
             conex=DriverManager.getConnection(url,user,passwd);
             System.out.println("Conexion Exitosa");
